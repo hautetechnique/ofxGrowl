@@ -3,7 +3,7 @@ ofxGrowl is an addon for openFrameworks (v 7.0 tested) that adds Growl notificat
 There are custom options like custom icons, sticky messages, app registration and click callback events.
 
 functions:	
- 	- title: 	the message title. The title is also the identifyer of the message. Sending 2 messages with the same title will override the message instead of add it.
+ 	- title: 	the message title. The title is also the identifier of the message. Sending 2 messages with the same title will override the message instead of add it.
     - message: 	a string containing the message
     - sticky: 	Make a message sticky 
     - priority: pririoty
