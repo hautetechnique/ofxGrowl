@@ -1,0 +1,23 @@
+ofxGrowl is an addon for openFrameworks (v 7.0 tested) that adds Growl notification functionality to your project.
+
+There are custom options like custom icons, sticky messages, app registration and click callback events.
+
+functions:	
+ 	- title: 	the message title. The title is also the identifyer of the message. Sending 2 messages with the same title will override the message instead of add it.
+    - message: 	a string containing the message
+    - sticky: 	Make a message sticky 
+    - priority: pririoty
+    - icon: 	a string containing the name of the icon file, in the OF data folder. Icons can be .icns files or images (PNG etc)
+    - event: 	The name of the event that should be dispatched when the user clicks the message.
+
+
+Growl can be downloaded here: http://growl.info/downloads
+
+The included example is a Xcode 4 OF 0.07 project.
+
+INSTALLATION NOTE:
+
+This addon only works on Mac, since it depends on objective-c. In xcode, click on your project, select the the target and click on "Build Phases". Add the Growl.frameworks to "Copy Files" by clicking the add sign, "add other" and browse to the ofxGrowl addon directory.
+
+Created by Sander ter Braak
+
