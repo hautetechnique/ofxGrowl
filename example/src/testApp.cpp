@@ -61,7 +61,7 @@ void testApp::mousePressed(int x, int y, int button){
     
     
     // send a growl message.
-    // title: the message title. The title is also the identifyer of the message. Sending 2 messages with the same title will override the message instead of add it.
+    // title: the message title. The title is also the identifier of the message. Sending 2 messages with the same title will override the message instead of add it.
     // message: a string containing the message
     // sticky: Make a message sticky 
     // priority: pririoty
